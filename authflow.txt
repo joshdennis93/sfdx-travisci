@@ -1,0 +1,11 @@
+export CONSUMER_KEY=3MVG9ZL0ppGP5UrAf3g_PcZ1asGpOWHga6vRVDjiSsBF40oqmDpoH2nPrj6GMUjYWrzPVI80x_lwdwkfbA2Rj
+export JWT_KEY_FILE=<example: C:\Program Files\OpenSSL-Win64\bin\server.key
+export HUB_USERNAME=joshdennis93@gmail.com
+
+
+sfdx force:auth:jwt:grant --clientid 3MVG9ZL0ppGP5UrAf3g_PcZ1asGpOWHga6vRVDjiSsBF40oqmDpoH2nPrj6GMUjYWrzPVI80x_lwdwkfbA2Rj --username joshdennis93@gmail.com --jwtkeyfile C:\Program Files\OpenSSL-Win64\bin\server.key --setdefaultdevhubusername
+
+====================
+this actually worked:
+sfdx force:auth:jwt:grant --clientid 3MVG9ZL0ppGP5UrAf3g_PcZ1asGpOWHga6vRVDjiSsBF40oqmDpoH2nPrj6GMUjYWrzPVI80x_lwdwkfbA2Rj --username joshdennis93@gmail.com --jwtkeyfile C:\Program Files\OpenSSL-Win64\bin\server.key --setdefaultdevhubusername
+====================
